@@ -3,7 +3,8 @@
     "rootDir": "./src", // server ts files
     "outDir": "./dist", // compiled js files
     "target": "ES6", // target ES version
-    "module": "CommonJS", // code generated
+    "moduleResolution": "nodenext",
+    "module": "nodenext",
     "strict": true,
     "esModuleInterop": true
   },
